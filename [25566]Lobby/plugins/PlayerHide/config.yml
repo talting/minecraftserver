@@ -1,0 +1,18 @@
+PlayerHide:
+  slot: 7
+  show:
+    item:
+      material: INK_SACK
+      byte: 10
+      name: '&aÏÔÊ¾Íæ¼Ò&7(ÓÒ¼üµã»÷)'
+    message:
+      enable: false
+      message: ''
+  hide:
+    item:
+      material: INK_SACK
+      byte: 8
+      name: '&cÒş²ØÍæ¼Ò&7(ÓÒ¼üµã»÷)'
+    message:
+      enable: false
+      message: ''

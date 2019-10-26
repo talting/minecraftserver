@@ -1,0 +1,48 @@
+Parkour1:
+  spawnpoint:
+    world: Lobby
+    x: -25
+    y: 70
+    z: -24
+    yaw: 179.39137
+    pitch: -3.7500033
+  start:
+    world: Lobby
+    x: -25
+    y: 70
+    z: -24
+    yaw: 179.39137
+    pitch: -3.7500033
+  checkpoint:
+    '0':
+      location:
+        world: Lobby
+        x: -34
+        y: 86
+        z: -56
+        yaw: -358.6578
+        pitch: 88.95
+    '1':
+      location:
+        world: Lobby
+        x: -57
+        y: 92
+        z: -22
+        yaw: -358.65784
+        pitch: 90.0
+    '2':
+      location:
+        world: Lobby
+        x: -61
+        y: 99
+        z: 0
+        yaw: -352.05792
+        pitch: 88.200096
+    '3':
+      location:
+        world: Lobby
+        x: -5
+        y: 88
+        z: 31
+        yaw: -178.80756
+        pitch: -4.2000933

@@ -1,0 +1,39 @@
+menu-settings:
+  name: '&8起床战争'
+  rows: 4
+  command: 'join'
+  open-sound: NOTE_PLING
+  open-with-item:
+    id: 355
+    left-click: false
+    right-click: false
+    data-value: 1
+
+1:
+  NAME: '&a普通模式'
+  ID: 340
+  COMMAND: 'op:bwjoin'
+  KEEP-OPEN: true
+  LORE:
+    - ''
+    - '&e点击选择！'
+  POSITION-X: 4
+  POSITION-Y: 2
+2:
+  NAME: '&a经验模式'
+  ID: 384
+  COMMAND: 'op:bwjoinxp'
+  KEEP-OPEN: true
+  LORE:
+    - ''
+    - '&e点击选择！'
+  POSITION-X: 6
+  POSITION-Y: 2
+3:
+  NAME: '&c关闭'
+  ID: 166
+  DATA-VALUE: 0
+  COMMAND: ''
+  LORE:
+  POSITION-X: 5
+  POSITION-Y: 4

@@ -1,0 +1,4 @@
+NPCS:
+  '0':
+    Commands:
+    - 1~~~join~~~noPerm~~~BOTH~~~false~~~true~~~false~~~0.0~~~0

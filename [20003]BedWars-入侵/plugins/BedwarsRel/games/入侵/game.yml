@@ -1,0 +1,262 @@
+name: "\u5165\u4fb5"
+world: "\u5165\u4fb5"
+loc1:
+  world: "\u5165\u4fb5"
+  x: 100.5
+  y: 255.0
+  z: 100.5
+  pitch: 36.43953323364258
+  yaw: -135.4540557861328
+loc2:
+  world: "\u5165\u4fb5"
+  x: -99.5
+  y: 0.0
+  z: -99.5
+  pitch: -49.467811584472656
+  yaw: -36.46649169921875
+lobby:
+  world: Lobby
+  x: 0.5
+  y: 118.0
+  z: 0.5
+  pitch: 0.0
+  yaw: 0.0
+minplayers: 8
+record: 3600
+record-holders: []
+regionname: "\u5165\u4fb5"
+time: 1000
+targetmaterial: BED_BLOCK
+autobalance: false
+spawner:
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: "\u5165\u4fb5"
+    x: -52.5
+    y: 93.0
+    z: -52.5
+    pitch: 0.0
+    yaw: 270.0
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: "\u5165\u4fb5"
+    x: -52.5
+    y: 93.0
+    z: -52.5
+    pitch: 0.0
+    yaw: 270.0
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: "\u5165\u4fb5"
+    x: 51.5
+    y: 93.0
+    z: -52.5
+    pitch: 0.0
+    yaw: 0.0
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: "\u5165\u4fb5"
+    x: 51.5
+    y: 93.0
+    z: -52.5
+    pitch: 0.0
+    yaw: 0.0
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: "\u5165\u4fb5"
+    x: 51.5
+    y: 93.0
+    z: 51.5
+    pitch: 0.0
+    yaw: 89.13146209716797
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: "\u5165\u4fb5"
+    x: 51.5
+    y: 93.0
+    z: 51.5
+    pitch: 0.0
+    yaw: 89.13146209716797
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: "\u5165\u4fb5"
+    x: -52.5
+    y: 93.0
+    z: 51.5
+    pitch: 0.0
+    yaw: 180.0
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: "\u5165\u4fb5"
+    x: -52.5
+    y: 93.0
+    z: 51.5
+    pitch: 0.0
+    yaw: 180.0
+- ==: RessourceSpawner
+  name: diamond
+  location:
+    world: "\u5165\u4fb5"
+    x: 0.5
+    y: 87.0
+    z: -47.5
+    pitch: 0.0
+    yaw: 270.0
+- ==: RessourceSpawner
+  name: diamond
+  location:
+    world: "\u5165\u4fb5"
+    x: 48.5
+    y: 87.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 0.0
+- ==: RessourceSpawner
+  name: diamond
+  location:
+    world: "\u5165\u4fb5"
+    x: 0.5
+    y: 87.0
+    z: 48.5
+    pitch: 0.0
+    yaw: 89.71048736572266
+- ==: RessourceSpawner
+  name: diamond
+  location:
+    world: "\u5165\u4fb5"
+    x: -47.5
+    y: 87.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 180.0
+- ==: RessourceSpawner
+  name: emerald
+  location:
+    world: "\u5165\u4fb5"
+    x: 13.5
+    y: 100.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 90.0
+- ==: RessourceSpawner
+  name: emerald
+  location:
+    world: "\u5165\u4fb5"
+    x: -12.5
+    y: 100.0
+    z: 0.5
+    pitch: 0.0
+    yaw: 270.0
+teams:
+  "\u9ec4":
+    ==: Team
+    bedfeed:
+      world: "\u5165\u4fb5"
+      x: -41.0
+      y: 94.0
+      z: 39.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: "\u5165\u4fb5"
+      x: -51.5
+      y: 93.0
+      z: 50.5
+      pitch: 0.24994827806949615
+      yaw: 226.27076721191406
+    color: YELLOW
+    name: "\u9ec4"
+    maxplayers: 4
+    bedhead:
+      world: "\u5165\u4fb5"
+      x: -41.0
+      y: 94.0
+      z: 40.0
+      pitch: 0.0
+      yaw: 0.0
+  "\u7eff":
+    ==: Team
+    bedfeed:
+      world: "\u5165\u4fb5"
+      x: 39.0
+      y: 94.0
+      z: 39.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: "\u5165\u4fb5"
+      x: 50.5
+      y: 93.0
+      z: 50.5
+      pitch: -0.039550017565488815
+      yaw: 135.94140625
+    color: GREEN
+    name: "\u7eff"
+    maxplayers: 4
+    bedhead:
+      world: "\u5165\u4fb5"
+      x: 40.0
+      y: 94.0
+      z: 39.0
+      pitch: 0.0
+      yaw: 0.0
+  "\u7ea2":
+    ==: Team
+    bedfeed:
+      world: "\u5165\u4fb5"
+      x: -41.0
+      y: 94.0
+      z: -41.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: "\u5165\u4fb5"
+      x: -51.5
+      y: 93.0
+      z: -51.5
+      pitch: 1.1184756755828857
+      yaw: -44.58546829223633
+    color: RED
+    name: "\u7ea2"
+    maxplayers: 4
+    bedhead:
+      world: "\u5165\u4fb5"
+      x: -42.0
+      y: 94.0
+      z: -41.0
+      pitch: 0.0
+      yaw: 0.0
+  "\u84dd":
+    ==: Team
+    bedfeed:
+      world: "\u5165\u4fb5"
+      x: 39.0
+      y: 94.0
+      z: -41.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: "\u5165\u4fb5"
+      x: 50.5
+      y: 93.0
+      z: -51.5
+      pitch: -0.039560768753290176
+      yaw: 45.16462326049805
+    color: BLUE
+    name: "\u84dd"
+    maxplayers: 4
+    bedhead:
+      world: "\u5165\u4fb5"
+      x: 39.0
+      y: 94.0
+      z: -42.0
+      pitch: 0.0
+      yaw: 0.0

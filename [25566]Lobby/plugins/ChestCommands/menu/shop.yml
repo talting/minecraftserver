@@ -1,0 +1,148 @@
+menu-settings:
+  name: '&8商城'
+  rows: 5
+  command: 'shop'
+  open-sound: NOTE_PLING
+  open-with-item:
+    id: 347
+    left-click: false
+    right-click: false
+    data-value: 1
+
+1:
+  NAME: '&b神秘的礼盒&r/&b1个'
+  ID: 130
+  POINTS: 50
+  DATA-VALUE: 0
+  COMMAND: 'op:gmysterybox give {player} 1 1'
+  POINTS: 100
+  KEEP-OPEN: false
+  LORE:
+    - '&7这个礼盒含以下内容'
+    - ''
+    - '&a普通奖励&7: &b4'
+    - '&9稀有奖励&7: &b1'
+    - '&5史诗奖励&7: &b1'
+    - '&6传奇奖励&7: &b1'
+    - ''
+    - '品质: &e☆&7☆☆☆☆'
+    - ''
+    - '&f售价: &a100点券'
+    - '&f您当前点券: &a{points}'
+    - ''
+    - '&a点击购买'
+  POSITION-X: 2
+  POSITION-Y: 2
+2:
+  NAME: '&b神秘的礼盒&r/&b1个'
+  ID: 130
+  POINTS: 50
+  DATA-VALUE: 0
+  COMMAND: 'op:gmysterybox give {player} 1 2'
+  POINTS: 200
+  KEEP-OPEN: false
+  LORE:
+    - '&7这个礼盒含以下内容'
+    - ''
+    - '&a普通奖励&7: &b3'
+    - '&9稀有奖励&7: &b2'
+    - '&5史诗奖励&7: &b1'
+    - '&6传奇奖励&7: &b1'
+    - ''
+    - '品质: &e☆☆&7☆☆☆'
+    - ''
+    - '&f售价: &a200点券'
+    - '&f您当前点券: &a{points}'
+    - ''
+    - '&a点击购买'
+  POSITION-X: 5
+  POSITION-Y: 2
+3:
+  NAME: '&b神秘的礼盒&r/&b1个'
+  ID: 130
+  POINTS: 50
+  DATA-VALUE: 0
+  COMMAND: 'op:gmysterybox give {player} 1 3'
+  POINTS: 300
+  KEEP-OPEN: false
+  LORE:
+    - '&7这个礼盒含以下内容'
+    - ''
+    - '&a普通奖励&7: &b2'
+    - '&9稀有奖励&7: &b2'
+    - '&5史诗奖励&7: &b2'
+    - '&6传奇奖励&7: &b1'
+    - ''
+    - '品质: &e☆☆☆&7☆☆'
+    - ''
+    - '&f售价: &a300点券'
+    - '&f您当前点券: &a{points}'
+    - ''
+    - '&a点击购买'
+  POSITION-X: 8
+  POSITION-Y: 2
+4:
+  NAME: '&b神秘的礼盒&r/&b1个'
+  ID: 130
+  POINTS: 50
+  DATA-VALUE: 0
+  COMMAND: 'op:gmysterybox give {player} 1 4'
+  POINTS: 400
+  KEEP-OPEN: false
+  LORE:
+    - '&7这个礼盒含以下内容'
+    - ''
+    - '&a普通奖励&7: &b1'
+    - '&9稀有奖励&7: &b1'
+    - '&5史诗奖励&7: &b2'
+    - '&6传奇奖励&7: &b3'
+    - ''
+    - '品质: &e☆☆☆☆&7☆'
+    - ''
+    - '&f售价: &a400点券'
+    - '&f您当前点券: &a{points}'
+    - ''
+    - '&a点击购买'
+  POSITION-X: 2
+  POSITION-Y: 4
+5:
+  NAME: '&b神秘的礼盒&r/&b1个'
+  ID: 130
+  POINTS: 50
+  DATA-VALUE: 0
+  COMMAND: 'op:gmysterybox give {player} 1 5'
+  POINTS: 500
+  KEEP-OPEN: false
+  LORE:
+    - '&7这个礼盒含以下内容'
+    - ''
+    - '&a普通奖励&7: &b0'
+    - '&9稀有奖励&7: &b1'
+    - '&5史诗奖励&7: &b2'
+    - '&6传奇奖励&7: &b4'
+    - ''
+    - '品质: &e☆☆☆☆☆'
+    - ''
+    - '&f售价: &a500点券'
+    - '&f您当前点券: &a{points}'
+    - ''
+    - '&a点击购买'
+  POSITION-X: 5
+  POSITION-Y: 4
+6:
+  NAME: '&b趣味的碎片&r/&b100个'
+  ID: 409
+  POINTS: 50
+  DATA-VALUE: 0
+  COMMAND: 'op:mysterydust add {player} 100'
+  POINTS: 200
+  KEEP-OPEN: false
+  LORE:
+    - '&7使用趣味的碎片解锁道具'
+    - ''
+    - '&f售价: &a200点券'
+    - '&f您当前点券: &a{points}'
+    - ''
+    - '&a点击购买'
+  POSITION-X: 8
+  POSITION-Y: 4

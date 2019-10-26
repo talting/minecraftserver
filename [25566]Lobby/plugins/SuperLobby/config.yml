@@ -1,0 +1,95 @@
+Update-Check: false
+Messages: EN
+Worlds:
+- Lobby
+DisableRain: true
+DisableBlockBreak: true
+DisableBlockPlace: true
+DisableBlockBurn: true
+DisableDropItem: true
+DisableItemMove: true
+DisableItemDamage: true
+DisablePickUpItems: true
+DisableEntityExplode: true
+DisableDamage: true
+DisableHunger: true
+DisableDeathMessage: true
+ClearDropsOnDeath: true
+JoinClearInventory: true
+JoinClearChat: false
+JoinSpawn: false
+LobbyItems: true
+VoidTP: true
+AlwaysDay: false
+JoinBossBar:
+  Enable: false
+  Message: '&3Welcome to my server!'
+  Color: BLUE
+  Style: NOTCHED_20
+  Time: 50
+JoinTab:
+  Enable: false
+  Header: |-
+    &7
+    &a&m--&2&m--&8&m[-&r &a&lYourserver &f&lNetwork &8&m-]&2&m--&a&m--
+    &7
+  Footer: |-
+    &7
+    &7Sitio Web: &7Yourserver.com
+    &7Twitter: &7@Yourserver
+    &7Tienda: &7tienda.Yourserver.com
+    &7
+JoinTitles:
+  Enable: false
+  FadeIn: 20
+  Stay: 50
+  FadeOut: 10
+  Title: '&6<player> &bWelcome to'
+  Subtitle: '&6&lYourserver'
+JoinMotd:
+  Enable: false
+  Message:
+  - '&a&m---------------------------------------------------'
+  - ' '
+  - '&a# &6&l<player> &7Welcome to &b&lYourserver &fNetwork!'
+  - ' '
+  - '&a# &7Buy rank on: &2yourpage.com/shop'
+  - '&a# &7Facebook: &2facebook.com/Yourserver'
+  - '&a# &7For more information type &2/info'
+  - ''
+  - '&a&m---------------------------------------------------'
+JoinGameMode:
+  Enable: false
+  GameMode: survival
+BossBarAnnouncer:
+  Enable: false
+  Color: BLUE
+  Style: NOTCHED_20
+  Time: 50
+  interval: 200
+  Messages:
+  - '&7Message &b1'
+  - '&7Message &52'
+  - '&7Message &e3'
+CommandsBlacklist:
+  Enable: false
+  Bypass: superlobby.admin
+  List:
+  - p
+  - pl
+  - '?'
+  - help
+  - plugins
+  - bukkit:plugins
+  - bukkit:pl
+  - bukkit:?
+  - bukkit:help
+  - ver
+  - version
+  - gc
+  - bukkit:version
+  - bukkit:ver
+InfoCommands:
+  Enable: false
+CustomEvents:
+  Enable: false

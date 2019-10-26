@@ -1,0 +1,99 @@
+Player-Data:
+  Storage: file
+  MySQL:
+    hostname: localhost
+    username: root
+    database: minecraft
+    port: '3306'
+    password: password
+Cosmetic-Item-Purchase:
+  Enabled: true
+  Mystery-Dust-Storage: file
+  Enabled-Cosmetics:
+    Hats: true
+    Particles: true
+    Suits: true
+    Gadgets: true
+    Pets: true
+    Morphs: false
+    Banners: true
+    Emotes: true
+    Cloaks: true
+  Execute-Command: pex user {PLAYER} add {PERMISSION}
+Settings:
+  Default-Pet-Name: "&b{PLAYER}\u7684\u5ba0\u7269"
+  Starting-Mystery-Dust: 0
+  Max-Pet-Name-Characters: 20
+  Gadget-Slot: 5
+  Default-Self-Morph-View: true
+  Enabled-Self-Morph-View: true
+  Auto-Equip-After-Purchase: true
+  Auto-Equip-On-Loot-Found: true
+  Show-Particle-Effect-To-Everyone: true
+  Show-Cloak-Effect-To-Everyone: true
+Menu-Item:
+  Name: "&a\u8da3\u5473\u9053\u5177&7(\u53f3\u952e\u70b9\u51fb)"
+  Material: '130:0'
+  Slot: 4
+  Give-On-Join: true
+  Able-To-Move: false
+  Lore:
+  - "&7\u8da3\u5473\u7684\u788e\u7247: &b{MYSTERY_DUST}"
+  - "&7\u795e\u79d8\u7684\u793c\u76d2: &b{MYSTERY_BOXES}"
+  - ''
+  - "&7\u4eab\u53d7\u8da3\u5473\u9053\u5177\u7684\u4e50\u8da3\u7684\u88c5\u9970\u529f\
+    \u80fd\u5427"
+  - "&7\u966a\u4f34\u8da3\u5473\u9053\u5177\u7684\u53ef\u7231\u7684\u5ba0\u7269\u529f\
+    \u80fd\u54e6"
+  - "&7\u4f53\u9a8c\u8da3\u5473\u9053\u5177\u7684\u795e\u5947\u7684\u9053\u5177\u73a9\
+    \u5177\u5566"
+  - ''
+  - "&7\u611f\u8c22\u4f60\u7684\u652f\u6301                                      \
+    \            "
+Enabled-Worlds:
+- Lobby
+Disabled-Cosmetics:
+  Hats: false
+  Particles: false
+  Suits: false
+  Gadgets: false
+  Pets: false
+  Morphs: true
+  Banners: false
+  Emotes: false
+  Cloaks: false
+Permission:
+  No-Permission:
+    Show-In-Lore: false
+    Close-GUI-Menu-After-Select: false
+    Lore:
+    - ''
+    - "&7\u72b6\u6001: &c&l\u672a\u89e3\u9501"
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_ENDERMEN_TELEPORT
+    Show-Custom-Item:
+      Enabled: true
+      Material: '351:8'
+  Has-Permission:
+    Show-In-Lore: false
+    Close-GUI-Menu-After-Select: true
+    Lore:
+    - ''
+    - "&7\u72b6\u6001: &a&l\u5df2\u89e3\u9501"
+    Play-Sound:
+      Enabled: true
+      Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+Back-To-Main-Menu:
+  Execute-Commands:
+    Enabled: false
+    Commands:
+    - cc open menu.yml {PLAYER}
+Fill-Empty-Slot-With-Item:
+  Enabled: false
+  Material: '160:15'
+Disabled-Commands:
+- hat
+Check-Update: false
+Auto-Update: false
+Config-Version: 1.0.4

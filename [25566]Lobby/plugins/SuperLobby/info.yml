@@ -1,0 +1,59 @@
+Info:
+  command: info
+  permission: superlobby.info
+  info:
+  - '&b&m<-=-----------------&r &aYourserver &b&m-----------------=->'
+  - '&a- &7For information with an interactive menu type &b/menu'
+  - '&a- &7To play a mode typing &b/server'
+  - '&a- &7To get free rewards type &b/rewards'
+  - '&a- &7To see a list of basic commands type &b/help'
+  - '&a- &7To get range information type &b/ranks'
+  - '&a- &7To get Youtubers information, type &b/youtubers'
+  - '&a- &7For information on the rules, type &b/rules'
+  - '&a- &7For information about our community type &b/socialpages'
+  - '&b&m---------------------------------------------------'
+Youtubers:
+  command: youtubers
+  permission: superlobby.youtubers
+  info:
+  - '&b&m<-=-----------------&r &aYourserver &b&m-----------------=->'
+  - '&7If you re a youtuber that meets the following requirements, you may have one
+    of the following ranges, totally free!'
+  - '&6-[&a&lMiniYT&6]-'
+  - '&a>> &6Requirement: &7Have more than 300 subs in your channel.'
+  - '&a>> &6Terms: &7Upload 3 server videos on your channel per month.'
+  - '&a>> &6Cancellation: &7If the user deletes the videos or doesnt meet at the end
+    of the month, the range is removed.'
+  - '&a>> &6Duration: &71 month. It can be renewed while the user meets the conditions'
+  - '&6-[&a&lYoutuber&6]-'
+  - '&a>> &6Requirement: &7Have more than 1000 subs in your channel.'
+  - '&a>> &6Terms: &7Upload 1 server video on your channel per month.'
+  - '&a>> &6Cancellation: &7If the user deletes the videos or doesnt meet at the end
+    of the month, the range is removed.'
+  - '&a>> &6Duration: &71 month. It can be renewed while the user meets the conditions'
+  - '&b&m---------------------------------------------------'
+socialpages:
+  command: socialpages
+  permission: superlobby.socialpages
+  info:
+  - '&b&m<-=-----------------&r &aYourserver &b&m-----------------=->'
+  - '&a- &7facebook page: yourfacebook'
+  - '&a- &7facebook group: yourfacebook'
+  - '&a- &7forum: yourforum'
+  - '&a- &7web: yourweb'
+  - '&a- &7youtuber: yourchanel'
+  - '&b&m---------------------------------------------------'
+rules:
+  command: rules
+  permission: superlobby.rules
+  info:
+  - '&b&m<-=-----------------&r &aYourserver &b&m-----------------=->'
+  - '&a- &7your server rules'
+  - '&b&m---------------------------------------------------'
+help:
+  command: help
+  permission: superlobby.help
+  info:
+  - '&b&m<-=-----------------&r &aYourserver &b&m-----------------=->'
+  - '&a- &7your server HELP '
+  - '&b&m---------------------------------------------------'

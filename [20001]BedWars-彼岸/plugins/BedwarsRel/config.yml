@@ -1,0 +1,278 @@
+# ###############################
+# ####### BEDWARS CONFIG ########
+# ##### CREATED BY YANNICI ######
+# ###############################
+# ###### EXPLANATION ABOUT ######
+# ##### EVERY CONFIGURATION #####
+# ### YOU CAN FIND ON GITHUB ####
+# ############ WIKI #############
+# ###############################
+# 
+# # TYPE HELP # #
+# int: number (not decimal)
+# string: a normal text (in most cases you can use colorcodes with a beginning §)
+# boolean: true or false (IMPORTANT: true OR false ONLY)
+# list<?>: a list of type ? (? is the type of the list items)
+# byte: a int but limited between -128 ... 127
+# short: a int but limited between -32768 ... 32767
+# char: one character
+
+chat-prefix: '§'
+plugin-metrics: true
+send-error-data: true
+global-messages: true
+global-autobalance: false
+global-chat-after-end: true
+gamelength: 60
+allow-crafting: false
+overwrite-names: false
+lobby-gamemode: 2
+holographic-stats:
+  show-prefix: false
+  name-color: '&7'
+  value-color: '&3'
+  head-line: "起床战争"
+teamname-on-tab: false
+teamname-in-chat: true
+hearts-on-death: true
+die-on-void: true
+spawn-ressources-in-chest: true
+lobbytime: 80
+lobby-chatformat: "§7$player$§7: $msg$"
+ingame-chatformat-all: '&7[&fALL&7]$player$&f: $msg$'
+ingame-chatformat: '$player$&f: $msg$'
+game-block: BED_BLOCK
+store-game-records: true
+store-game-records-holder: true
+bed-sound: ENDERDRAGON_GROWL
+player-drops: false
+keep-inventory-on-death: false
+place-in-liquid: true
+breakable-blocks:
+  use-as-blacklist: false
+  list:
+  - none
+jointeam-entity:
+  show-name: true
+lobby-scoreboard:
+  enabled: true
+  title: "&e&l起床战争"
+  content:
+  - '   '
+  - "&f地图:&a$gamename$"
+  - "&f玩家:&a$players$/$maxplayers$"
+  - ''
+  - "&f等待中..."
+  - ''
+  - "&f模式:&a4v4v4v4"
+  - "&f版本:&7v3.0"
+  - ''
+  - '&ewww.mcbbs.net/bedwars'
+scoreboard:
+  format-bed-destroyed: $team$ $status$
+  format-bed-alive: $team$ $status$
+  format-title: "&e&l起床战争"
+titles:
+  win:
+    enabled: true
+    title-fade-in: 1.5
+    title-stay: 5.0
+    title-fade-out: 2.0
+    subtitle-fade-in: 1.5
+    subtitle-stay: 5.0
+    subtitle-fade-out: 2.0
+  map:
+    enabled: true
+    title-fade-in: 1.5
+    title-stay: 2.0
+    title-fade-out: 1.5
+    subtitle-fade-in: 1.5
+    subtitle-stay: 2.0
+    subtitle-fade-out: 1.5
+  countdown:
+    enabled: true
+    format: '&c{countdown}'
+explodes:
+  destroy-worldblocks: false
+  destroy-beds: false
+  drop-blocking: false
+friendlyfire: false
+friendlybreak: false
+gameoverdelay: 8
+use-internal-shop: true
+save-inventory: true
+show-team-in-actionbar: false
+chat-to-all-prefix: {}
+seperate-game-chat: true
+seperate-spectator-chat: true
+statistics:
+  enabled: false
+  show-on-game-end: true
+  storage: database
+  bed-destroyed-kills: false
+  scores:
+    kill: 2
+    die: 0
+    win: 30
+    bed-destroy: 5
+    lose: 0
+    record: 10
+  player-leave-kills: false
+database:
+  host: localhost
+  port: 3306
+  db: bedwars
+  user: root
+  password: root
+  table-prefix: bw_
+  connection-pooling:
+    min-pool-size: 3
+    max-pool-size: 50
+spectation-enabled: true
+respawn-protection: 0
+allowed-commands:
+- /help
+endgame:
+  mainlobby-enabled: false
+  all-players-to-mainlobby: false
+bungeecord:
+  enabled: true
+  hubserver: lobby
+  endgame-in-lobby: false
+  full-restart: true
+  spigot-restart: true
+  motds:
+    lobby: "&a等待中..."
+    running: '&7[&b$currentplayers$&7/&b$maxplayers$&7]'
+    stopped: |
+      $regionname$
+      &c[Stopped]
+    full: |
+      $regionname$
+      &7[&b$currentplayers$&7/&b$maxplayers$&7]
+locale: zh_CN
+resource:
+  bronze:
+    item:
+    - type: CLAY_BRICK
+      amount: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+    spawn-interval: 1000
+    spread: 1.0
+  iron:
+    item:
+    - type: IRON_INGOT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: "§f铁锭"
+    spawn-interval: 800
+    spread: 1.0
+    name: "&f铁锭"
+  gold:
+    item:
+    - type: GOLD_INGOT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: "§6金锭"
+    spawn-interval: 4000
+    spread: 1.0
+  diamond:
+    item:
+    - type: DIAMOND
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: "§b钻石"
+    spawn-interval: 30000
+    spread: 0.0
+  emerald:
+    item:
+    - type: EMERALD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: "§2绿宝石"
+    spawn-interval: 50000
+    spread: 0.0
+check-updates: false
+update-infos: false
+rewards:
+  enabled: false
+  player-win:
+  - /points
+  player-end-game:
+  - /points
+  player-destroy-bed:
+  - /points
+  player-kill:
+  - /points
+specials:
+  rescue-platform:
+    break-time: 10
+    using-wait-time: 20
+    item: BLAZE_ROD
+    can-break: true
+    block: SLIME_BLOCK
+  protection-wall:
+    break-time: 0
+    wait-time: 20
+    can-break: true
+    item: BRICK
+    block: SANDSTONE
+    width: 5
+    height: 3
+    distance: 2
+  magnetshoe:
+    probability: 0
+    boots: GOlD_BOOTS
+  warp-powder:
+    show-particles: true
+    particle: fireworksSpark
+    teleport-time: 4
+  trap:
+    play-sound: true
+    effects:
+    - ==: PotionEffect
+      effect: 15
+      duration: 100
+      amplifier: 2
+      ambient: true
+      has-particles: true
+    - ==: PotionEffect
+      effect: 18
+      duration: 100
+      amplifier: 2
+      ambient: true
+      has-particles: true
+    - ==: PotionEffect
+      effect: 2
+      duration: 100
+      amplifier: 2
+      ambient: true
+      has-particles: true
+  tntsheep:
+    fuse-time: 8.0
+    speed: 0.4
+    explosion-factor: 1.0
+  arrow-blocker:
+    protection-time: 10
+    using-wait-time: 30
+    item: ender_eye
+sign:
+  first-line: $title$
+  second-line: "起床战争 $gamename$"
+  third-line: "起床战争 &7[&b$currentplayers$&7/&b$maxplayers$&7]"
+  fourth-line: "起床战争 $status$"
+player-settings:
+  one-stack-on-shift: true
+  old-shop-as-default: false
+lobbytime-full: 30
+hearts-in-halfs: true
+spawn-resources-in-chest: true
+command-prefix: bw
+lobbycountdown-rule: 2
+overwrite-display-names: true

@@ -1,0 +1,39 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 0
+npc:
+  '0':
+    name: "\xa7b4v4v4v4\u6a21\u5f0f"
+    uuid: 34be2719-057c-475d-8f94-763322d5f0c1
+    traits:
+      spawned: true
+      equipment:
+        hand:
+          type: BED
+          amount: 1
+          durability: 0
+          mdata: 0
+      location:
+        world: Lobby
+        x: '3.5'
+        y: '68.0'
+        z: '0.5'
+        yaw: '90.0'
+        pitch: '0.0'
+      inventory:
+        '0':
+          type: BED
+          amount: 1
+          durability: 0
+          mdata: 0
+      lookclose:
+        enabled: false
+        range: '5.0'
+        realisticlooking: false
+    traitnames: owner,spawned,equipment,inventory,location,type
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

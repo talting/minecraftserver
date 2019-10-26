@@ -1,0 +1,54 @@
+start: "&a&l\u8dd1\u9177\u6311\u6218\u5f00\u59cb! \u8f93\u5165 &e&l/parkour reset\
+  \ &a&l \u6765\u91cd\u65b0\u5f00\u59cb!"
+reset-done: "&a&l\u91cd\u7f6e\u4f60\u7684\u65f6\u95f4\u4e3a 00:00! \u5feb\u70b9\u62b5\
+  \u8fbe\u7ec8\u70b9\u5427!"
+reset-fail: "&c\u4f60\u73b0\u5728\u5e76\u4e0d\u5728\u8dd1\u9177\u7684\u6bd4\u8d5b\u91cc\
+  \u9762,\u91cd\u7f6e\u5931\u8d25."
+stop: "&a&l\u8dd1\u9177\u6311\u6218\u5931\u8d25! \u4f60\u8d85\u8fc7\u4e86 %time \u5206\
+  \u949f\u7684\u9650\u5b9a\u65f6\u95f4!"
+checkpoint: "&a&l\u4f60\u5230\u8fbe\u4e86 &e&l\u68c0\u67e5\u70b9 #%number&a&l. \u4f60\
+  \u53ef\u4ee5\u8f93\u5165 &e&l/parkour checkpoint &a&l\u6765\u56de\u5230\u8fd9\u4e2a\
+  \u5730\u65b9."
+point-fail: "&a&l\u4f60\u9700\u8981\u8fd4\u56de\u5230\u4e0a\u4e00\u4e2a\u68c0\u67e5\
+  \u70b9!"
+finish-new: "&a&l\u606d\u559c\u4f60\uff0c\u5b8c\u6210\u6574\u4e2a\u8dd1\u9177! \u4f60\
+  \u5b8c\u6210\u7684\u65f6\u95f4\u662f: &e&l%time&a&l! \u518d\u63a5\u518d\u5389,\u6253\
+  \u7834\u8fd9\u4e2a\u7eaa\u5f55\u5427!"
+finish-old: "&a&l\u4f60\u7684\u65f6\u95f4: &e&l%time &a&l\u5e76\u6ca1\u6709\u6253\u7834\
+  \u4f60\u4e4b\u524d\u7684\u8bb0\u5f55: &e&l%old&a&l! &a&l\u518d\u63a5\u518d\u5389\
+  ,\u5c1d\u8bd5\u6253\u7834\u4f60\u8fd9\u4e2a\u8bb0\u5f55\u5427!"
+finish-fail: "&a&l\u8fd9\u662f\u6574\u4e2a\u8dd1\u9177\u7684\u7ec8\u70b9\u7ebf!\u56de\
+  \u5230\u8d77\u59cb\u70b9 \u5e76\u4e14\u8dd1\u9177\u5230\u8fd9!"
+finish-record: "&a&l\u8fd9\u662f\u4e00\u4e2a\u65b0\u7684\u8bb0\u5f55: &e&l%time&a&l!\
+  \ \u5728\u5c1d\u8bd5\u4e00\u4e0b \u6253\u8d25\u8fd9\u4e2a\u65b0\u7eaa\u5f55!"
+command-create-done: "&e\u521b\u5efa\u4e86 &c%arena &e!"
+command-create-exist: "&e\u573a\u5730 &c%arena &e\u5df2\u7ecf\u5b58\u5728!"
+command-create-fail: "&e\u4f7f\u7528: /parkour create <name>"
+command-list-line: "&e&m-----------&6 \u8dd1\u9177\u573a\u5730\u5217\u8868 &e&m-----------"
+command-list-empty: "&c\u8dd1\u9177\u573a\u5730\u5217\u8868\u662f &c\u7a7a\u7684&e!"
+command-save-done: "&e\u5168\u90e8\u573a\u5730\u5df2\u7ecf\u4fdd\u5b58\u5230\u670d\
+  \u52a1\u5668\u63d2\u4ef6\u76ee\u5f55\u91cc\u9762!"
+command-save-error: "&c%problem &e\u8fd9\u4e2a\u95ee\u9898,\u56e0\u4e3a\u573a\u5730\
+  &c%arena &e\u662f\u6ca1\u6709\u8bbe\u7f6e\u7684!"
+command-spawn-done: "&e\u51fa\u751f\u5730\u4e3a\u5730\u533a&c%arena &e\u5df2\u7ecf\
+  \u8bbe\u7f6e!"
+command-spawn-fail: "&e\u4f7f\u7528: /parkour setspawn <name>"
+command-start-done: "&e\u5df2\u4e3a\u573a\u5730 &c%arena &e\u8bbe\u7f6e\u8d77\u8dd1\
+  \u70b9!"
+command-start-fail: "&e\u4f7f\u7528: /parkour setstart <name>"
+command-delete-done: "&e\u8dd1\u9177\u573a\u5730 &c%arena &e\u5df2\u7ecf\u88ab\u5220\
+  \u9664!"
+command-setpoint-done: "&e\u589e\u52a0\u4e00\u4e2a\u68c0\u67e5\u70b9\u5728\u573a\u5730\
+  \ &c%arena&e!"
+command-setpoint-fail: "&e\u4f7f\u7528: /parkour setpoint <name>"
+command-parkour-line1: "&c/parkour reset  &e\u6765\u91cd\u65b0\u5f00\u59cb\u4f60\u7684\
+  \u8dd1\u9177"
+command-parkour-line2: "&c/parkour checkpoint &e\u56de\u5230\u68c0\u67e5\u70b9"
+arena-no-name: "&e\u8dd1\u9177\u573a\u5730 &c%arena &e\u5e76\u4e0d\u5b58\u5728!"
+title-game: "&e&l\u8dd1\u9177\u6311\u6218"
+title-point: "&e&l\u68c0\u67e5\u70b9"
+subtitle-start: "&a&l\u8d77\u8dd1\u70b9"
+subtitle-finish: "&c&l\u7ec8\u70b9"
+subtitle-point: '&b&l#%number'
+permissions: "&c\u4f60\u5e76\u6ca1\u6709\u6743\u9650\u6765\u505a\u8fd9\u79cd\u4e8b\
+  \u60c5."

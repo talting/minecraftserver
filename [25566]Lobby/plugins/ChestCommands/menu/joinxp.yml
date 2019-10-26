@@ -1,0 +1,42 @@
+menu-settings:
+  name: '&8起床战争'
+  rows: 4
+  command: 'bwjoinxp'
+  open-sound: NOTE_PLING
+  open-with-item:
+    id: 355
+    left-click: false
+    right-click: false
+    data-value: 1
+
+1:
+  NAME: '&a起床战争 (快速加入)'
+  ID: 355
+  DATA-VALUE: 0
+  COMMAND: 'op:sj fastjoin bwxp'
+  LORE:
+    - ''
+    - '&e点击进入游戏！'
+  POSITION-X: 4
+  POSITION-Y: 2
+2:
+  NAME: '&a地图选择器 (全部地图)'
+  ID: 323
+  DATA-VALUE: 0
+  COMMAND: 'op:sj all bwxp'
+  KEEP-OPEN: true
+  LORE:
+    - '选择你想玩的地图'
+    - ''
+    - '&e点击浏览!'
+  POSITION-X: 6
+  POSITION-Y: 2
+3:
+  NAME: '&f返回'
+  ID: 262
+  DATA-VALUE: 0
+  COMMAND: 'op:join'
+  KEEP-OPEN: true
+  LORE:
+  POSITION-X: 5
+  POSITION-Y: 4

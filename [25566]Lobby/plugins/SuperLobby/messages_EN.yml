@@ -1,0 +1,22 @@
+error:
+  no-console: '&cNot available in the console.'
+  no-command: '&cThis command is not available.'
+  no-permission: '&7You not have permission to use this command.'
+  command: '&7Use &a/superLobby help | ? &7to Displays the help page.'
+  command-setspawn: '&7Invalid argument. &7Use &e/Superlobby &asetSpawn &3<name>.'
+  command-remspawn: '&7Invalid argument. &7Use &e/Superlobby &aremSpawn &3<name> &7|
+    &3all.'
+  no-spawn: '&7No spawn location data.'
+  no-world: '&cNot available in this world.'
+  spawn-not-set: '&7Spawn on set.'
+config-loaded: '&7config, messages and items loaded'
+setSpawn: '&7Spawn <spawn> set successfully.'
+remSpawn: '&7Spawn <spawn> remove successfully.'
+click-wait: '&7Please wait &b<time> &7before clicking again.'
+help:
+  command-reload: '&a/superLobby reload'
+  description-reload: '&7Reload the configuration and messages file.'
+  command-setSpawn: '&a/superlobby setSpawn <name>'
+  description-setSpawn: '&7Set spawn location'
+  command-remSpawn: '&a/superlobby remSpawn <name> | all'
+  description-remSpawn: '&7Remove spawn location'

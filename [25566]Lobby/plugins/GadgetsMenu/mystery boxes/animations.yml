@@ -1,0 +1,17 @@
+Animations:
+  None:
+    Name: '&a动画效果：无'
+    Material: '166:0'
+    Enabled: true
+    Mini-Block:
+      Material: '130:0'
+    Lore:
+    - ''
+  Normal:
+    Name: '&a动画效果：有'
+    Material: '130:0'
+    Enabled: true
+    Mini-Block:
+      Material: '130:0'
+    Lore:
+    - ''

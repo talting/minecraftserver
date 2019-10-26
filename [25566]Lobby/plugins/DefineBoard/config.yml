@@ -1,0 +1,100 @@
+#日期格式
+date_format: "yyyy/MM/dd"
+
+#启用世界
+# "*" 则启用所有世界
+enable_world:
+  - "*"
+
+#计分板
+scoreboard:
+
+  #是否启用计分板
+  enabled: true
+  
+  #计分板刷新间隔
+  interval: 2
+  
+  #计分板标题
+  title:
+    - "&e&l起床战争"
+    - "&e&l起床战争"
+    - "&e&l起床战争"
+    - "&e&l起床战争"
+    - "&e&l起床战争"
+    - "&e&l起床战争"
+    - "&e&l起床战争"
+    - "&e&l起床战争"
+    - "&e&l起床战争"
+    - "&e&l起床战争"
+    - "&e&l起床战争"
+    - "&e&l起床战争"
+    - "&e&l起床战争"
+    - "&e&l起床战争"
+    - "&e&l起床战争"
+    - "&e&l起床战争"
+    - "&e&l起床战争"
+    - "&e&l起床战争"
+    - "&e&l起床战争"
+    - "&e&l起床战争"
+    - "&6&l起&e&l床战争"
+    - "&f&l起&6&l床&e&l战争"
+    - "&e&l起&f&l床&6&l战&e&l争"
+    - "&e&l起床&f&l战&6&l争"
+    - "&e&l起床战&f&l争"
+    - "&e&l起床战争"
+    - "&f&l起床战争"
+    - "&e&l起床战争"
+    - "&f&l起床战争"
+  
+  #动态信息
+  #
+  # #组
+  # group:
+  #
+  #  #变化间隔
+  #  interval: 100
+  #
+  #  #信息
+  #  info:
+  #    - "文本2"
+  #    - "文本2"
+  dynamic:
+    group_1:
+      interval: 100
+      info:
+        - "&6&l玩家名称:"
+        - "&6&l玩家血量:"
+        - "&6&l所在世界:"
+    group_2:
+      interval: 100
+      info:
+        - "&f%player_name%"
+        - "&f%player_health%"
+        - "&f%player_world%"
+   
+  #计分板内容
+  #变量:
+  # {date}             日期
+  # {dynamic_<组>}     动态信息
+  lines:
+    - "&7{date}"
+    - ""
+    - "&f名称: &a%player_name%"
+    - ""
+    - "&f点券: &a%playerpoints_points%"
+    - ""
+    - "&f趣味碎片: &6%gadgetsmenu_mystery_dust%"
+    - ""
+    - "&f神秘的礼盒: &6%gadgetsmenu_mystery_boxes%"
+    - ""
+    - "&f所在大厅: &bLobby#1"
+    - ""
+    - "&ewww.mcbbs.net/bedwars"
+
+#信息替换
+#格式:
+# replace:
+#   - "旧信息,新信息"
+replace:
+  - "1,1"

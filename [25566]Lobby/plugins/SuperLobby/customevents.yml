@@ -1,0 +1,25 @@
+owner:
+  permission: superlobby.owner
+  join-message: '&eThe owner &a<player> &ejoined the server!'
+  quit-message: '&eThe owner &c<player> &eleave the server!'
+  join-firework: random, 5
+  join-sound: EXPLODE
+silent:
+  permission: superlobby.staff
+  join-message: none
+  quit-message: none
+vip++:
+  permission: superlobby.vip++
+  join-message: '&b#VIP++ &a<player> &ejoined the server!'
+  quit-message: '&b#VIP++ &c<player> &eleave the server!'
+  join-firework: random, 5
+  join-sound: EXPLODE
+vip:
+  permission: superlobby.vip
+  join-message: '&b#VIP &a<player> &ejoined the server!'
+  quit-message: '&b#VIP &c<player> &eleave the server!'
+  join-firework: random, 5
+default:
+  permission: superlobby.default
+  join-message: '&a<player> &ejoined the server!'
+  quit-message: '&c<player> &eleave the server!'

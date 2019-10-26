@@ -1,0 +1,45 @@
+play:
+  name: '&a开始游戏&7(右键点击)'
+  id: 345
+  slot: 1
+  data-value: 0
+  lore:
+  command: 'op:join'
+  permission: ''
+  cooldown-seconds: 0
+  give-at-respawn: true
+  first-join-only: false
+  allow-drop: false
+  block-movement: true
+  disabled-worlds: ''
+  give-on-world-change: true
+shop:
+  name: '&a商城&7(右键点击)'
+  id: 388
+  slot: 2
+  data-value: 0
+  lore:
+  command: 'op:shop'
+  permission: ''
+  cooldown-seconds: 0
+  give-at-respawn: true
+  first-join-only: false
+  allow-drop: false
+  block-movement: true
+  disabled-worlds: ''
+  give-on-world-change: true
+lobbys:
+  name: '&a切换大厅&7(右键点击)'
+  id: 399
+  slot: 9
+  data-value: 0
+  lore:
+  command: 'op:lobbys'
+  permission: ''
+  cooldown-seconds: 0
+  give-at-respawn: true
+  first-join-only: false
+  allow-drop: false
+  block-movement: true
+  disabled-worlds: ''
+  give-on-world-change: true

@@ -1,0 +1,515 @@
+shop:
+  quick:
+    item: NETHER_STAR
+    name: "&a快捷购买"
+    lore:
+      - "&e点击查看！"
+    order: 0
+    permission: bw.base
+    offers:
+    - price:
+      - type: IRON_INGOT
+        amount: 4
+      reward:
+      - type: WOOL
+        amount: 16
+    - price:
+      - type: IRON_INGOT
+        amount: 10
+      reward:
+      - type: STONE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - "§s§w§o§r§d"
+    - price:
+      - type: EMERALD
+        amount: 6
+      reward:
+      - type: DIAMOND_BOOTS
+        meta:
+          display-name: "§f永久的钻石护甲"
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - "§a§r§m§o§r§0§0§3"
+    - price:
+      - type: GOLD_INGOT
+        amount: 14
+      reward:
+      - type: IRON_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 1
+    - reward:
+      - type: BOW
+      price:
+      - type: GOLD_INGOT
+        amount: 12
+    - reward:
+      - type: POTION
+        damage: 8203
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          custom-effects:
+          - ==: PotionEffect
+            effect: 8
+            duration: 900
+            amplifier: 4
+            ambient: false
+            has-particles: true
+      price:
+      - type: EMERALD
+        amount: 1
+    - reward:
+      - type: TNT
+      price:
+      - type: GOLD_INGOT
+        amount: 4
+    - price:
+      - type: GOLD_INGOT
+        amount: 4
+      reward:
+      - type: WOOD
+        amount: 16
+    - price:
+      - type: GOLD_INGOT
+        amount: 7
+      reward:
+      - type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - "§s§w§o§r§d"
+    - price:
+      - type: GOLD_INGOT
+        amount: 12
+      reward:
+      - type: IRON_BOOTS
+        meta:
+          display-name: "§f永久的铁护甲"
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - "§a§r§m§o§r§0§0§2"
+    - price:
+      - type: IRON_INGOT
+        amount: 20
+      reward:
+      - type: SHEARS
+    - reward:
+      - type: ARROW
+        amount: 8
+      price:
+      - type: GOLD_INGOT
+        amount: 2
+    - reward:
+      - type: POTION
+        damage: 8238
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          custom-effects:
+          - ==: PotionEffect
+            effect: 14
+            duration: 600
+            amplifier: 0
+            ambient: true
+            has-particles: false
+      price:
+      - type: EMERALD
+        amount: 2
+    - reward:
+      - type: WATER_BUCKET
+      price:
+      - type: EMERALD
+        amount: 1
+  blocks:
+    item: HARD_CLAY
+    name: "&a方块"
+    lore:
+      - "&e点击查看！"
+    order: 10
+    permission: bw.base
+    offers:
+    - price:
+      - type: IRON_INGOT
+        amount: 4
+      reward:
+      - type: WOOL
+        amount: 16
+    - price:
+      - type: IRON_INGOT
+        amount: 12
+      reward:
+      - type: STAINED_CLAY
+        amount: 16
+    - price:
+      - type: IRON_INGOT
+        amount: 12
+      reward:
+      - type: STAINED_GLASS
+        amount: 4
+    - price:
+      - type: IRON_INGOT
+        amount: 24
+      reward:
+      - type: ENDER_STONE
+        amount: 12
+    - price:
+      - type: IRON_INGOT
+        amount: 4
+      reward:
+      - type: LADDER
+        amount: 16
+    - price:
+      - type: GOLD_INGOT
+        amount: 4
+      reward:
+      - type: WOOD
+        amount: 16
+    - price:
+      - type: EMERALD
+        amount: 4
+      reward:
+      - type: OBSIDIAN
+        amount: 4
+  sword:
+    item: GOLD_SWORD
+    name: "&a近战武器"
+    lore:
+      - "&e点击查看！"
+    order: 20
+    permission: bw.base
+    offers:
+    - price:
+      - type: IRON_INGOT
+        amount: 10
+      reward:
+      - type: STONE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - "§s§w§o§r§d"
+    - price:
+      - type: GOLD_INGOT
+        amount: 7
+      reward:
+      - type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - "§s§w§o§r§d"
+    - price:
+      - type: EMERALD
+        amount: 3
+      reward:
+      - type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - "§s§w§o§r§d"
+    - price:
+      - type: GOLD_INGOT
+        amount: 10
+      reward:
+      - type: STICK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            KNOCKBACK: 1
+  armor:
+    item: CHAINMAIL_BOOTS
+    name: "&a盔甲"
+    lore:
+      - "&e点击查看！"
+    order: 30
+    permission: bw.base
+    offers:
+    - price:
+      - type: IRON_INGOT
+        amount: 40
+      reward:
+      - type: CHAINMAIL_BOOTS
+        meta:
+          display-name: "§f永久的锁链护甲"
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - "§a§r§m§o§r§0§0§1"
+    - price:
+      - type: GOLD_INGOT
+        amount: 12
+      reward:
+      - type: IRON_BOOTS
+        meta:
+          display-name: "§f永久的铁护甲"
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - "§a§r§m§o§r§0§0§2"
+    - price:
+      - type: EMERALD
+        amount: 6
+      reward:
+      - type: DIAMOND_BOOTS
+        meta:
+          display-name: "§f永久的钻石护甲"
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          lore:
+          - "§a§r§m§o§r§0§0§3"
+  tool:
+    item: STONE_PICKAXE
+    name: "&a工具"
+    lore:
+      - "&e点击查看！"
+    order: 40
+    permission: bw.base
+    offers:
+    - price:
+      - type: IRON_INGOT
+        amount: 20
+      reward:
+      - type: SHEARS
+    - price:
+      - type: IRON_INGOT
+        amount: 10
+      reward:
+      - type: WOOD_PICKAXE
+    - price:
+      - type: IRON_INGOT
+        amount: 10
+      reward:
+      - type: WOOD_AXE
+    - price:
+      - type: IRON_INGOT
+        amount: 20
+      reward:
+      - type: STONE_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 1
+    - price:
+      - type: IRON_INGOT
+        amount: 20
+      reward:
+      - type: STONE_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 1
+    - price:
+      - type: GOLD_INGOT
+        amount: 14
+      reward:
+      - type: IRON_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 1
+    - price:
+      - type: GOLD_INGOT
+        amount: 14
+      reward:
+      - type: IRON_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 1
+    - price:
+      - type: EMERALD
+        amount: 6
+      reward:
+      - type: DIAMOND_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 2
+    - price:
+      - type: EMERALD
+        amount: 6
+      reward:
+      - type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 2
+  bows:
+    item: 261
+    name: "§a远程武器"
+    lore:
+      - "&e点击查看！"
+    order: 50
+    permission: bw.base
+    offers:
+    - reward:
+      - type: ARROW
+        amount: 8
+      price:
+      - type: GOLD_INGOT
+        amount: 2
+    - reward:
+      - type: BOW
+      price:
+      - type: GOLD_INGOT
+        amount: 12
+    - reward:
+      - type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_DAMAGE: 1
+      price:
+      - type: GOLD_INGOT
+        amount: 24
+    - reward:
+      - type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_DAMAGE: 1
+            ARROW_KNOCKBACK: 1
+      price:
+      - type: EMERALD
+        amount: 6
+  potion:
+    item: BREWING_STAND_ITEM
+    name: "§a药水"
+    lore:
+      - "&e点击查看！"
+    order: 60
+    permission: bw.base
+    offers:
+    - reward:
+      - type: POTION
+        damage: 8194
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          custom-effects:
+          - ==: PotionEffect
+            effect: 1
+            duration: 900
+            amplifier: 1
+            ambient: false
+            has-particles: true
+      price:
+      - type: EMERALD
+        amount: 1
+    - reward:
+      - type: POTION
+        damage: 8203
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          custom-effects:
+          - ==: PotionEffect
+            effect: 8
+            duration: 900
+            amplifier: 4
+            ambient: false
+            has-particles: true
+      price:
+      - type: EMERALD
+        amount: 1
+    - reward:
+      - type: POTION
+        damage: 8238
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          custom-effects:
+          - ==: PotionEffect
+            effect: 14
+            duration: 600
+            amplifier: 0
+            ambient: true
+            has-particles: false
+      price:
+      - type: EMERALD
+        amount: 2
+  utility:
+    item: TNT
+    name: "§a实用道具"
+    lore:
+      - "&e点击查看！"
+    order: 70
+    permission: bw.base
+    offers:
+    - reward:
+      - type: GOLDEN_APPLE
+      price:
+      - type: GOLD_INGOT
+        amount: 3
+    - reward:
+      - type: SNOW_BALL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "§f蠹虫"
+      price:
+      - type: IRON_INGOT
+        amount: 40
+    - reward:
+      - type: MONSTER_EGG
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "§f生成铁傀儡"
+      price:
+      - type: IRON_INGOT
+        amount: 120
+    - reward:
+      - type: FIREBALL
+      price:
+      - type: IRON_INGOT
+        amount: 50
+    - reward:
+      - type: TNT
+      price:
+      - type: GOLD_INGOT
+        amount: 4
+    - reward:
+      - type: ENDER_PEARL
+      price:
+      - type: EMERALD
+        amount: 4
+    - reward:
+      - type: WATER_BUCKET
+      price:
+      - type: EMERALD
+        amount: 1
+    - reward:
+      - type: EGG
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "§f搭桥蛋"
+      price:
+      - type: EMERALD
+        amount: 3
+    - reward:
+      - type: SPONGE
+      price:
+      - type: GOLD_INGOT
+        amount: 6
+schema-version: 1
